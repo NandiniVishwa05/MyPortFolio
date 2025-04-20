@@ -1,0 +1,22 @@
+.s1{
+    color: rgb(153, 153, 153);
+    font-size: 1vw;
+    width: 40vw;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .s1{
+        font-size: 2.9vw;
+        width: 97%;
+    }
+    .cicon{
+        font-size: 3vh;
+        padding: 2vw;
+    }
+    
+}

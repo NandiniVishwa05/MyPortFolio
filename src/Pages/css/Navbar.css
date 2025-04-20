@@ -1,0 +1,36 @@
+.navbar {
+    border:2px solid rgb(51, 51, 51);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2vh 2vw 2vh 2vw;
+    font-size: 1.1vw;
+    margin: 2vh 9vw 2vh 9vw;
+    color: rgb(161, 161, 161);  
+    position: fixed;
+    width: 80%;
+    z-index: 9;
+    transition: .3s;
+}
+
+.navbar-active{
+    background-color: rgb(27, 27, 27);
+    border-color: white;
+    color: #fdfdfd;
+}
+.navoptions ul{
+    list-style-type: none;
+    display: flex;
+}
+.navoptions li{
+    padding: 0 1vw 0 1vw;
+    cursor:pointer
+}
+@media (max-width: 800px) {
+    .navbar{
+      font-size: 3vw;
+      width:100%;
+      margin: 0;
+    }
+  }

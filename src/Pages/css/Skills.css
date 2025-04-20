@@ -1,0 +1,72 @@
+.skill {
+    height: auto;
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 5vh 9vw 5vh 9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh
+}
+
+.skillheader {
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    background: linear-gradient(90deg, #ff6ec4, #7873f5, #2fa85b);
+    background-clip: text;
+    color: transparent;
+}
+
+.tooltechnologysection {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.containerimgage {
+    height: auto;
+    width: 6vw;
+}
+
+.divcontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3vh;
+}
+
+.subheader {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(155, 155, 155);
+}
+
+.techcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+@media (max-width: 800px) {
+    .skill {
+        margin: 1vh 1vw 1vh 1vw;
+    }
+
+    .skillheader {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .subheader {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .divcontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .containerimgage {
+        width: 17vw;
+    }
+}

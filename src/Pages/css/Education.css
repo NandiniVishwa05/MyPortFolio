@@ -1,0 +1,38 @@
+.educationsection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2vw;
+    width: auto;
+}
+.ecard{
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: .3rem;
+    padding: 2vh 1vw 2vh 1vw;
+}
+.collegeinfo{
+    font-size: 1.1vw;    
+    color: rgb(201, 201, 201);
+}
+.collegeinfo2{
+    color: rgb(116, 116, 116);
+}
+.ecardsubdiv{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1vw; */
+}
+@media (max-width: 800px) {
+    .educationsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .collegeinfo{
+        font-size: 3.7vw;    
+    }
+    .collegeinfo2{
+        font-size: 3.5vw;    
+   } 
+    .ecardsubdiv{
+        flex-direction: column;
+    }
+}

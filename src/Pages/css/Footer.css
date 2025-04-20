@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    padding: 3vh;
+}
+@media (max-width: 800px) {
+    .footer{
+        font-size: 1.4vh;
+    }
+}

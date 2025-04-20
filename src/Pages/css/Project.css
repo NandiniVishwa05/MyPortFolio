@@ -1,0 +1,60 @@
+.projectcarddiv {
+    display: flex;
+    justify-content: space-between;
+}
+.projectcard {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: .3rem;
+    width: 35vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+.desc {
+    font-size: .8vw;
+    letter-spacing: 1px;
+    color: rgb(173, 173, 173);
+}
+.pname {
+    font-size: 1.2vw;
+    color: #e2e2e2;
+}
+.ptech {
+    font-size: 1vw;
+    color: #8987c9;
+}
+.code {
+    font-size: .9vw;
+    background-color: green;
+    padding: 1vh 1vw 1vh 1vw;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+@media (max-width: 800px) {
+    .projectcarddiv{
+        flex-direction: column;
+        align-items: center;
+        gap: 4vh;
+    }
+    .projectcard{
+        padding:1vh 2vw 1vh 4vw;
+        width:95%;
+    }
+    .code{
+        font-size: 3vw;
+        padding: 1vh 2vw 1vh 2vw;
+    }
+    .pname{
+        font-size: 4vw;
+    }
+    .ptech{
+        font-size: 3.5vw;
+    }
+    .desc{
+        font-size: 3vw;
+    }
+}

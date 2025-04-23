@@ -32,7 +32,7 @@ export default function NavBar() {
                         <li onClick={() => handleScroll("education")}>Education</li>
                         <li onClick={() => handleScroll("skills")}>Skills</li>
                         <li onClick={() => handleScroll("projects")}>Projects</li>
-                        <li onClick={() => handleScroll("services")}>Services</li>
+                        <li onClick={() => handleScroll("services")}>My SkillSet</li>
                     </ul>
                 </div>
             </div>

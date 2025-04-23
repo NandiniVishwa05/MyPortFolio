@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <>
       <div className="services skill">
-        <div className="skillheader"><p>MY SERVICES</p></div>
+        <div className="skillheader"><p>MY SKILLSET</p></div>
         <div className="servicesection">
           {data.map((data, index) => (<><div className="skillcard" key={index}><p className='pname'>{data.name}</p><br /><p className='desc'>{data.desc}</p></div> </>))}
         </div>
